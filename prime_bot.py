@@ -1,4 +1,6 @@
-from telegram import Update
+git init
+git add .
+git commit -m from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
 # معرف القناة المرسِل منها (source)
@@ -31,3 +33,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+git remote add origin https://github.com/ebaaghanem/tele.git
+git push -u origin main
+
